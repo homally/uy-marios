@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(super-mario-bros-level-ending.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+  .gooba {
+    width: 10vw;
+    position: relative;
+    bottom: 0;
+    animation: bounce infinite;
+    animation-duration: 1s;
+    left: 50px;
+    z-index: 1;
+  }
+
+  
+  .gooba img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .mario {
+    width: 15vw;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+  }
+  
+  
+  .mario img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .contenedor-audio {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    mask-position: 0cqw;
+  }
+  
+  audio {
+    width: 100%;
+    margin-bottom: 0;
+  }
+/* Letras y caracteristicas Fuentes */
+@font-face {
+    font-family: Mario;
+    src: url(/fonts/RetroMario-Regular.otf);
+}
+
+h1 {
+    font-family: Mario;
+    font-size: 5vw;
+}
+
+h2 {
+    font-family: Mario;
+    font-size: 5vw;
+}
+
+.titulo {
+  color: rgb(123, 16, 0);
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: jackInTheBox;
+  animation-duration: 3s;
+}
+
